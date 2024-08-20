@@ -7,13 +7,14 @@ const Home: React.FC = () => {
   return (
     <>
       <Header />
-      {/* <main className="container flex min-h-screen flex-col items-center justify-between"> */}
-      <Intro />
-      <Discover />
-      <Events />
-      <Explore />
+      <main className="container w-full flex min-h-screen flex-col items-center justify-between">
+        <Intro />
+        <Discover />
+        <Events />
+        <Explore />
+
+      </main>
       <Footer />
-      {/* </main> */}
     </>
   )
 }

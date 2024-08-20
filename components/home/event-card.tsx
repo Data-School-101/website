@@ -25,7 +25,7 @@ export const Events: React.FC = () => {
         />
       </div>
       <div className="mt-8 text-center">
-        <Button variant="outline">View Events</Button>
+        <Button className='bg-purple-600' variant="outline">View Events</Button>
       </div>
     </Section>
   )

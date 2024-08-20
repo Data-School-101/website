@@ -19,11 +19,10 @@ export const IntroSection: React.FC = () => {
   return (
     <Section>
       <div className="relative h-screen w-full flex items-center justify-center ">
-        {/* <div className="absolute inset-0 bg-black opacity-20 z-0"></div> */}
-        <div className="relative z-20 w-[434px]">
+        <div className="relative z-20 w-[28rem]">
           <Card className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 transparent p-8 rounded-lg shadow-lg">
             <CardHeader>
-              <CardTitle className="text-4xl font-bold text-center">
+              <CardTitle className="text-4xl font-bold text-center text-white">
                 <span>{text}</span>
                 <Cursor cursorColor="#FA0F00" />
               </CardTitle>
@@ -37,11 +36,11 @@ export const IntroSection: React.FC = () => {
               </p>
             </CardContent>
             <CardFooter className="flex justify-center mt-4">
-              <Button variant="link">Join Now</Button>
+              <Button className='hover:bg-blue-500' variant="outline">Join Now</Button>
             </CardFooter>
           </Card>
         </div>
-        <div className="relative transparent right-14 transform w-[512px] h-[512px] z-0">
+        <div className="relative transparent right-14 transform w-[35rem] h-[35rem] z-0">
           <Card
             className="w-full h-full bg-center bg-cover bg-no-repeat shadow-xl rounded-lg"
             style={{ backgroundImage: `url(${defaultProps.imageUrl})` }}
