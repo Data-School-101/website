@@ -6,7 +6,7 @@ import Section from '../section'
 export const Events: React.FC = () => {
   return (
     <Section className="py-10 px-6 bg-white">
-      <h2 className="text-center text-3xl font-bold mb-8">This week's events</h2>
+      <h2 className="text-center text-3xl font-bold mb-8">This week&apos;s events</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <EventCard
           image="https://images.unsplash.com/photo-1507208773393-40d9fc670acf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw1fHxOdW1iZXJzJTJDJTIwQ2xhc3Nyb29tJTJDJTIwTGFwdG9wfGVufDF8fHx8MTcyMzc5MDgxMHww&ixlib=rb-4.0.3&q=80&w=1080"
