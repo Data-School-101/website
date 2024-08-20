@@ -13,15 +13,15 @@ export const IntroSection: React.FC = () => {
   const [text] = useTypewriter({
     words: ['THE DATA SCHOOL PLATFORM', 'YOUR GATEWAY TO ADVANCED ANALYTICS', 'LEARN FROM INDUSTRY EXPERTS'],
     loop: 0, // Infinite loop
-    delaySpeed: 3000,
+    delaySpeed: 6000,
   });
 
   return (
     <Section>
       <div className="relative h-screen w-full flex items-center justify-center ">
         {/* <div className="absolute inset-0 bg-black opacity-20 z-0"></div> */}
-        <div className="relative z-10 w-[434px]">
-          <Card className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 p-8 rounded-lg shadow-lg">
+        <div className="relative z-20 w-[434px]">
+          <Card className="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 transparent p-8 rounded-lg shadow-lg">
             <CardHeader>
               <CardTitle className="text-4xl font-bold text-center">
                 <span>{text}</span>
@@ -41,7 +41,7 @@ export const IntroSection: React.FC = () => {
             </CardFooter>
           </Card>
         </div>
-        <div className="relative right-14 transform w-[512px] h-[512px] z-0">
+        <div className="relative transparent right-14 transform w-[512px] h-[512px] z-0">
           <Card
             className="w-full h-full bg-center bg-cover bg-no-repeat shadow-xl rounded-lg"
             style={{ backgroundImage: `url(${defaultProps.imageUrl})` }}
