@@ -11,9 +11,9 @@ const defaultProps = {
 
 export const IntroSection: React.FC = () => {
   const [text] = useTypewriter({
-    words: ['THE DATA SCHOOL PLATFORM', 'YOUR GATEWAY TO STATISTICS', 'LEARN FROM THE EXPERTS'],
+    words: ['THE DATA SCHOOL PLATFORM', 'YOUR GATEWAY TO ADVANCED ANALYTICS', 'LEARN FROM INDUSTRY EXPERTS'],
     loop: 0, // Infinite loop
-    delaySpeed: 2000,
+    delaySpeed: 3000,
   });
 
   return (
