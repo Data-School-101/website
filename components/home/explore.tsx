@@ -5,8 +5,8 @@ export const Explore: React.FC = () => {
   return (
     <Section>
       <h2 className="text-center text-3xl font-bold mb-8">Explore more</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="flex flex-cols-2 gap-5 items-center relative h-full w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
+        <div className="flex flex-cols-2 gap-5 items-center relative h-full w-full shadow-sm">
           <Image1 />
           <div className="items-center">
             <h3 className="text-lg md:text-xl font-semibold text-gray-900">Our resources</h3>
@@ -15,21 +15,21 @@ export const Explore: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full items-center justify-center space-y-6">
+        <div className="w-full items-center justify-center space-y-6 shadow-sm">
           <Image2 />
           <div className="bottom-4 left-4 flex justify-evenly items-center">
             <h3 className="text-lg md:text-xl font-semibold text-gray-900">Our archives</h3>
             <Icon />
           </div>
         </div>
-        <div className="w-full items-center justify-center space-y-5">
+        <div className="w-full items-center justify-center space-y-5 shadow-sm">
           <Image3 />
           <div className="bottom-4 left-4 flex justify-evenly items-center">
             <h3 className="text-lg md:text-xl font-semibold text-gray-900">Merchandise shop</h3>
             <Icon />
           </div>
         </div>
-        <div className="flex flex-cols-2 gap-5 items-center relative h-full w-full">
+        <div className="flex flex-cols-2 gap-5 items-center relative h-full w-full shadow-sm">
           <Image4 />
           <div className="items-center">
             <h3 className="text-lg md:text-xl font-semibold text-gray-900">Virtual workshops</h3>
