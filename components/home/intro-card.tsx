@@ -31,7 +31,7 @@ export const IntroSection: React.FC = () => {
               <p className="mt-4 text-center text-white text-sm lg:text-base">
                 Event Schedule<br />
                 MON - FRI, 9 AM - 5 PM<br />
-                Today&aposs Events<br />
+                Today&apos;s Events<br />
                 9 AM - 5 PM
               </p>
             </CardContent>

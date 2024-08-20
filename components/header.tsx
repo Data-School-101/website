@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="sticky top-0 bg-white shadow z-50">
+    <header className="sticky top-0 bg-white shadow-lg z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <Link href="/" className="text-xl font-bold flex items-center">
           <Home />
