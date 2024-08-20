@@ -1,6 +1,6 @@
 import Footer from "@/components/home/footer"
 import Header from "@/components/header"
-import { Discover, Intro } from "@/components/home/"
+import { Discover, Explore, Intro } from "@/components/home/"
 import React from "react"
 
 const Home: React.FC = () => {
@@ -10,6 +10,7 @@ const Home: React.FC = () => {
       {/* <main className="container flex min-h-screen flex-col items-center justify-between"> */}
       <Intro />
       <Discover />
+      <Explore />
       <Footer />
       {/* </main> */}
     </>
