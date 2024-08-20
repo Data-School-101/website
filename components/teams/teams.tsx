@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card';
-import { teamMembers } from './data';
+import React from 'react'
+import Link from 'next/link'
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card'
+import { teamMembers } from './data'
 
 const TeamsPage: React.FC = () => {
   return (
@@ -32,7 +32,7 @@ const TeamsPage: React.FC = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TeamsPage;
+export default TeamsPage
