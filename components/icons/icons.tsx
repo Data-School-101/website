@@ -31,3 +31,6 @@ const Icon: React.FC<IconProps> = ({ social, ariaLabel }) => {
 }
 
 export default Icon
+
+
+

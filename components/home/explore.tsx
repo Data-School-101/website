@@ -49,71 +49,70 @@ const Icon: React.FC = () => (
   </svg>
 )
 
-const Image1 = () => (
+interface ImageComponentProps {
+  top: string;
+  left: string;
+  width: string;
+  height: string;
+  backgroundImage: string;
+  additionalClasses?: string;
+}
+
+const ImageComponent: React.FC<ImageComponentProps> = ({ top, left, width, height, backgroundImage, additionalClasses = '' }) => (
   <div
-    className='flex justify-start bg-center'
+    className={`bg-center ${additionalClasses}`}
     style={{
-      top: '3366px',
-      left: '68px',
-      width: '415px',
-      height: '264px',
-      borderRadius: '22px',
-      backgroundImage: `url(https://images.unsplash.com/photo-1424115087662-5845efc6b366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw2fHxCb29rcyUyQyUyMFN0dWR5JTJDJTIwTGVhcm5pbmd8ZW58MXx8fHwxNzIzNzY4MTY2fDA&ixlib=rb-4.0.3&q=80&w=1080)`,
+      top,
+      left,
+      width,
+      height,
+      borderRadius: '1.375rem', // 22px / 16
+      backgroundImage: `url(${backgroundImage})`,
       backgroundPosition: 'center center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
     }}
   />
-)
+);
+
+const Image1 = () => (
+  <ImageComponent
+    top="210.375rem" // 3366px / 16
+    left="4.25rem" // 68px / 16
+    width="25.9375rem" // 415px / 16
+    height="16.5rem" // 264px / 16
+    backgroundImage="https://images.unsplash.com/photo-1424115087662-5845efc6b366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw2fHxCb29rcyUyQyUyMFN0dWR5JTJDJTIwTGVhcm5pbmd8ZW58MXx8fHwxNzIzNzY4MTY2fDA&ixlib=rb-4.0.3&q=80&w=1080"
+    additionalClasses="flex justify-start"
+  />
+);
 
 const Image2 = () => (
-  <div
-    className='bg-center'
-    style={{
-      top: '3366px',
-      left: '750px',
-      width: '100%',
-      height: '330px',
-      borderRadius: '22px',
-      backgroundImage: `url(https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwzfHxEZXNrJTJDJTIwQ29tcHV0ZXIlMkMlMjBSZXNlYXJjaHxlbnwxfHx8fDE3MjM3OTA4MTF8MA&ixlib=rb-4.0.3&q=80&w=1080)`,
-      backgroundPosition: 'center center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-    }}
+  <ImageComponent
+    top="210.375rem" // 3366px / 16
+    left="46.875rem" // 750px / 16
+    width="100%"
+    height="20.625rem" // 330px / 16
+    backgroundImage="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwzfHxEZXNrJTJDJTIwQ29tcHV0ZXIlMkMlMjBSZXNlYXJjaHxlbnwxfHx8fDE3MjM3OTA4MTF8MA&ixlib=rb-4.0.3&q=80&w=1080"
   />
-)
+);
 
 const Image3 = () => (
-  <div
-    className='bg-center'
-    style={{
-      top: '3690px',
-      left: '68px',
-      width: '100%',
-      height: '330px',
-      borderRadius: '22px',
-      backgroundImage: `url(https://images.unsplash.com/photo-1528562014890-9cc833b10c23?crop=entropy&cs=tinysrgb&cover=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwxfHxDYWxjdWxhdG9yJTJDJTIwRGVzayUyQyUyMFN0dWR5fGVufDF8fHx8MTcyMzc5MDgxMXww&ixlib=rb-4.0.3&q=80&w=1080)`,
-      backgroundPosition: 'center center',
-      backgroundSize: 'fit',
-      backgroundRepeat: 'no-repeat',
-    }}
+  <ImageComponent
+    top="230.625rem" // 3690px / 16
+    left="4.25rem" // 68px / 16
+    width="100%"
+    height="20.625rem" // 330px / 16
+    backgroundImage="https://images.unsplash.com/photo-1528562014890-9cc833b10c23?crop=entropy&cs=tinysrgb&cover=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwxfHxDYWxjdWxhdG9yJTJDJTIwRGVzayUyQyUyMFN0dWR5fGVufDF8fHx8MTcyMzc5MDgxMXww&ixlib=rb-4.0.3&q=80&w=1080"
   />
-)
+);
 
 const Image4 = () => (
-  <div
-    className='flex justify-start bg-center'
-    style={{
-      top: '3822px',
-      left: '750px',
-      width: '415px',
-      height: '264px',
-      borderRadius: '22px',
-      backgroundImage: `url(https://images.unsplash.com/photo-1604933834413-4cbe62737214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw2fHxNYXRoJTJDJTIwQ2xhc3Nyb29tJTJDJTIwU3VwcGxpZXN8ZW58MXx8fHwxNzIzNzkwODExfDA&ixlib=rb-4.0.3&q=80&w=1080)`,
-      backgroundPosition: 'center center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-    }}
+  <ImageComponent
+    top="238.875rem" // 3822px / 16
+    left="46.875rem" // 750px / 16
+    width="25.9375rem" // 415px / 16
+    height="16.5rem" // 264px / 16
+    backgroundImage="https://images.unsplash.com/photo-1604933834413-4cbe62737214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw2fHxNYXRoJTJDJTIwQ2xhc3Nyb29tJTJDJTIwU3VwcGxpZXN8ZW58MXx8fHwxNzIzNzkwODExfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    additionalClasses="flex justify-start"
   />
-)
-
+);

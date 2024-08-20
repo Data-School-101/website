@@ -4,6 +4,8 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { HamburgerMenuIcon, Cross1Icon } from '@radix-ui/react-icons' // Radix icons
 
+import { Home } from './icons'
+
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -14,7 +16,10 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 bg-white shadow z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <div className="text-xl font-bold">The Data School</div>
+        <Link href="/" className="text-xl font-bold flex items-center">
+          <Home />
+          <span className="ml-2">The Data School</span>
+        </Link>
         <nav className="hidden lg:flex space-x-6">
           <ul className="flex space-x-6">
             <li><Link className="text-gray-800" href='/'>About</Link></li>
