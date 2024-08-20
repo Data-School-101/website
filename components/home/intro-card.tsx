@@ -37,7 +37,7 @@ export const IntroSection: React.FC = () => {
               </p>
             </CardContent>
             <CardFooter className="flex justify-center mt-4">
-              <Button variant="primary">Join Now</Button>
+              <Button variant="link">Join Now</Button>
             </CardFooter>
           </Card>
         </div>
