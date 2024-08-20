@@ -1,6 +1,6 @@
-import Footer from "@/components/home/Footer"
-import Header from "@/components/home/Header"
-import { IntroSection } from "@/components/home/intro-card"
+import Footer from "@/components/home/footer"
+import Header from "@/components/header"
+import { Discover, Explore, Intro } from "@/components/home/"
 import React from "react"
 
 const Home: React.FC = () => {
@@ -8,7 +8,9 @@ const Home: React.FC = () => {
     <>
       <Header />
       {/* <main className="container flex min-h-screen flex-col items-center justify-between"> */}
-      <IntroSection />
+      <Intro />
+      <Discover />
+      <Explore />
       <Footer />
       {/* </main> */}
     </>
