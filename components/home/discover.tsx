@@ -18,7 +18,7 @@ const DiscoverImage: React.FC<ImageProps> = ({ image }) => {
 
 export const Discover: React.FC = () => {
   return (
-    <Section>
+    <Section className=''>
       <div className="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between">
         <div className="w-full md:w-[55%] lg:w-[50%] text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">
@@ -34,7 +34,7 @@ export const Discover: React.FC = () => {
             and connect with like-minded professionals to exchange knowledge and ideas.
           </p>
         </div>
-        <div className="w-full md:w-[45%] lg:w-[50%]  md:mb-5 flex justify-center md:justify-center">
+        <div className="w-full md:w-[50%] lg:w-[50%] hidden md:flex justify-center md:justify-center">
           <DiscoverImage />
         </div>
       </div>
