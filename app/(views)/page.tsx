@@ -1,5 +1,3 @@
-import Footer from "@/components/home/footer"
-import Header from "@/components/header"
 import { Discover, Events, Explore, Intro } from "@/components/home/"
 import React from "react"
 
