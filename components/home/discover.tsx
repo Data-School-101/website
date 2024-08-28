@@ -30,8 +30,8 @@ export const Discover: React.FC = () => {
             Explore a variety of events and
             resources designed to enhance your experience and professional development. Join us in shaping
             the future of statistical education. Discover the latest trends and methodologies in the field of <span className='font-bold'>
-              Statistics</span>, <span className='font-bold'>Biostatistics</span>, <span className='font-bold'>Financial Engineering</span>, <span className='font-bold'>Data Science</span>, <span className='font-bold'>Actuarial Science</span>
-            <span className='font-bold'>Operations  Research</span>, and connect with like-minded professionals to exchange knowledge and ideas.
+              Statistics</span>, <span className='font-bold'>Biostatistics</span>, <span className='font-bold'>Financial Engineering</span>, <span className='font-bold'>Data Science</span>, <span className='font-bold'>Actuarial Science,</span>
+            <span className='font-bold'> Operations  Research</span>, and connect with like-minded professionals to exchange knowledge and ideas.
           </p>
         </div>
         <div className="w-full md:w-[50%] lg:w-[50%] hidden md:flex justify-center md:justify-center">
@@ -41,3 +41,4 @@ export const Discover: React.FC = () => {
     </Section>
   )
 }
+ 
