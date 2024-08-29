@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <Link href="/" className="text-xl font-bold flex items-center">
           <Home />
-          <span className="ml-2">The Data School</span>
+          <span className="ml-2">The DataCraft Lab</span>
         </Link>
         <nav className="hidden lg:flex space-x-6">
           <ul className="flex space-x-6">
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link className={getLinkClass("/about")} href="/">
+              <Link className={getLinkClass("/about")} href="/about">
                 About
               </Link>
             </li>

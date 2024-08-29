@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
         {/* About Us Section */}
         <FooterSection title="About Us">
           <ul className="space-y-6">
-            <li><a href="#" className="hover:text-yellow-500">Company Information</a></li>
+            <li><a href="#" className="hover:text-yellow-500">DataCraft Lab Information</a></li>
             <li><a href="#" className="hover:text-yellow-500">Events</a></li>
             <li><a href="#" className="hover:text-yellow-500">Get Involved</a></li>
             <li><a href="#" className="hover:text-yellow-500">Legal</a></li>

@@ -8,7 +8,7 @@ const Home: React.FC = () => {
         {/* <Intro /> */}
         <Discover />
         <Events />
-        <Explore />
+        {/* <Explore /> */}
       </main>
     </>
   )
