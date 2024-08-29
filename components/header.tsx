@@ -42,7 +42,7 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link className={getLinkClass("/teams")} href="/teams">
+              <Link className={getLinkClass("/teams")} href="/team">
                 Our Team
               </Link>
             </li>
