@@ -15,7 +15,7 @@ const TextComponent: React.FC<TextComponentProps> = ({
 }) => {
   const styles = {
     text: {
-      color: '#ffffff',
+      // color: '#ffffff',
       fontSize: fontSize,
       paddingTop: "2rem",
       paddingLeft: "14rem",
