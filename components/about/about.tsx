@@ -28,7 +28,7 @@ const AboutUs: React.FC = () => {
           <div className="md:w-1/2 px-4">
             <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
             <p className="text-gray-700">
-              The dataCraft Lab is designed to integrate statistics, mathematics, visualization, computing, software development, and domain expertise to derive insights from diverse data sources, including numerical, text, audio, and visual information. Our lab is committed to fostering academic and research excellence through high-quality training programs and an innovative research environment.
+              The DataCraft Lab is designed to integrate statistics, mathematics, visualization, computing, software development, and domain expertise to derive insights from diverse data sources, including numerical, text, audio, and visual information. Our lab is committed to fostering academic and research excellence through high-quality training programs and an innovative research environment.
             </p>
           </div>
           <div className="flex justify-center md:w-1/2">
