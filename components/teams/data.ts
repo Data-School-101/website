@@ -41,6 +41,7 @@ export const teamMembers: TeamMember[] = [
     imageSrc: "",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
     color: "bg-blue-100 text-blue-700",
+  },
   {
     name: "Joseph Mungatu",
     title: "Statistics and Collaborations Lead",
