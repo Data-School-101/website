@@ -6,6 +6,7 @@ interface TeamMember {
   description: string
   imageSrc: string
   linkedinUrl: string
+  color: string
 }
 
 export const teamMembers: TeamMember[] = [
@@ -15,6 +16,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Team Lead",
     imageSrc: "",
     linkedinUrl: "https://www.linkedin.com/in/emily-turner",
+    color: "bg-purple-100 text-purple-700", // Unique color for Caroline
   },
   {
     name: "Henry Athiany",
@@ -22,6 +24,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Project Coordinator",
     imageSrc: henryImage,
     linkedinUrl: "https://www.linkedin.com/in/henry-athiany-a755651b/",
+    color: "bg-green-100 text-green-700", // Unique color for Henry
   },
   {
     name: "Winnie Mbusiro Chacha",
@@ -29,6 +32,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Training Lead",
     imageSrc: "",
     linkedinUrl: "https://www.linkedin.com/in/dr-winnie-chacha-94946764/",
+    color: "bg-yellow-100 text-yellow-700", // Unique color for Winnie
   },
   {
     name: "Charity Mkajuma",
@@ -36,6 +40,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Research Lead",
     imageSrc: "",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
+    color: "bg-blue-100 text-blue-700", // Unique color for Charity
   },
   {
     name: "Joseph Mungatu",
@@ -43,5 +48,6 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Collaborations Lead",
     imageSrc: "",
     linkedinUrl: "https://www.linkedin.com/in/joseph-kyalo-mung-atu-98957570/",
+    color: "bg-red-100 text-red-700", // Unique color for Joseph
   },
 ]
