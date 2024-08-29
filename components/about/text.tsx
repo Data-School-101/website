@@ -15,12 +15,8 @@ const TextComponent: React.FC<TextComponentProps> = ({
 }) => {
   const styles = {
     text: {
-      // color: '#ffffff',
       fontSize: fontSize,
       paddingTop: "2rem",
-      // paddingLeft: "14rem",
-      // paddingRight: "14rem",
-      // fontFamily: 'Source Sans Pro, sans-serif',
       fontWeight: fontWeight,
       lineHeight: lineHeight,
       textAlign: 'center',
