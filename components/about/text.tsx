@@ -19,11 +19,10 @@ const TextComponent: React.FC<TextComponentProps> = ({
       paddingTop: "2rem",
       fontWeight: fontWeight,
       lineHeight: lineHeight,
-      textAlign: 'center',
     },
   }
 
-  return <div style={styles.text}>{text}</div>
+  return <div className="text-center" style={styles.text}>{text}</div>
 }
 
 export default TextComponent
