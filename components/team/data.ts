@@ -39,7 +39,8 @@ export const teamMembers: TeamMember[] = [
     name: "Charity Mkajuma",
     title: "Actuarial, Operations Research and Research Lead",
     description: "DataCraft Lab Research Lead",
-    imageSrc: "",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/charity.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
     color: "bg-blue-100 text-blue-700",
   },
