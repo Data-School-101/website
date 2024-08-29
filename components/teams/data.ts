@@ -50,4 +50,12 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/joseph-kyalo-mung-atu-98957570/",
     color: "bg-red-100 text-red-700", // Unique color for Joseph
   },
+  {
+    name: "Rohi Anon",
+    title: "Data Science",
+    description: "DataCraft Lab Technical Lead",
+    imageSrc: "",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700", // Unique color for Joseph
+  },
 ]
