@@ -13,7 +13,7 @@ export const teamMembers: TeamMember[] = [
     description:
       "DataCraft Lab Team Lead",
     imageSrc:
-      "https://assets.api.uizard.io/api/cdn/stream/b0f7bf37-bb14-43e9-a870-e643650e7336.png", // Updated image URL
+     # "https://assets.api.uizard.io/api/cdn/stream/b0f7bf37-bb14-43e9-a870-e643650e7336.png", // Updated image URL
     linkedinUrl: "https://www.linkedin.com/in/emily-turner",
   },
   {
@@ -22,7 +22,7 @@ export const teamMembers: TeamMember[] = [
     description:
       "DataCraft Lab Project Coordinator",
     imageSrc:
-      "https://assets.api.uizard.io/api/cdn/stream/bd2ebabb-8cb1-4086-b714-5ad9c06d508b.png", // Updated image URL
+     # "https://assets.api.uizard.io/api/cdn/stream/bd2ebabb-8cb1-4086-b714-5ad9c06d508b.png", // Updated image URL
     linkedinUrl: "https://www.linkedin.com/in/henry-athiany-a755651b/",
   },
   {
