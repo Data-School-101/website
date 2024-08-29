@@ -33,19 +33,6 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        {/* Our Mission Section */}
-        <div className="mt-16 flex flex-col md:flex-row items-center justify-between w-full max-w-screen-lg">
-          <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-            <p className="text-gray-700">
-              The dataCraft Lab is designed to integrate statistics, mathematics, visualization, computing, software development, and domain expertise to derive insights from diverse data sources, including numerical, text, audio, and visual information. Our lab is committed to fostering academic and research excellence through high-quality training programs and an innovative research environment.
-            </p>
-          </div>
-          <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-            <img src="/path/to/your/image.jpg" alt="Team Discussion" className="rounded-lg shadow-lg w-full max-w-md" />
-          </div>
-        </div>
-
         {/* Our Approach Section */}
         <div className="mt-16 w-full max-w-screen-lg">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Approach</h2>
