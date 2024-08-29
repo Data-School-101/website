@@ -19,7 +19,9 @@ const TeamsPage: React.FC = () => {
                     alt={member.name}
                     className="rounded-full border-2 border-blue-500"
                   />
-                  <AvatarFallback className='w-36 h-36'>{member.name.charAt(0)}</AvatarFallback>
+                  <AvatarFallback className='w-36 h-36 bg-gray-200 flex items-center justify-center'>
+                    {member.name.charAt(0)}
+                  </AvatarFallback>
                 </Avatar>
                 <CardTitle className="text-center">{member.name}</CardTitle>
                 <CardDescription className="text-center text-gray-600">{member.title}</CardDescription>
