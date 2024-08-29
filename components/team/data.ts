@@ -13,7 +13,7 @@ export const teamMembers: TeamMember[] = [
     title: "Team Lead and GIS Lead",
     description: "DataCraft Lab Team Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/mugo.png?raw=true",
+      "https://raw.githubusercontent.com/Data-School-101/website/8ea32a6a910d509406203c81032804b4c3647af7/components/team/assets/henry.png",
     linkedinUrl: "https://www.linkedin.com/in/emily-turner",
     color: "bg-purple-100 text-purple-700",
   },
