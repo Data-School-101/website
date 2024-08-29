@@ -1,5 +1,3 @@
-import henryImage from "./assets/henry.svg"
-
 interface TeamMember {
   name: string
   title: string
@@ -15,7 +13,7 @@ export const teamMembers: TeamMember[] = [
     title: "Team Lead and GIS Lead",
     description: "DataCraft Lab Team Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/8-events-page/components/teams/assets/mugo.jpg",
+      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/mugo.jpg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/emily-turner",
     color: "bg-purple-100 text-purple-700",
   },
@@ -23,7 +21,8 @@ export const teamMembers: TeamMember[] = [
     name: "Henry Athiany",
     title: "Project Coordinator and Biostatistics Lead",
     description: "DataCraft Lab Project Coordinator",
-    imageSrc: henryImage,
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/henry.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/henry-athiany-a755651b/",
     color: "bg-green-100 text-green-700",
   },
@@ -32,7 +31,7 @@ export const teamMembers: TeamMember[] = [
     title: "Financial Modelling and Training Lead",
     description: "DataCraft Lab Training Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/8-events-page/components/teams/assets/winnie.jpg",
+      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/winnie.jpg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-winnie-chacha-94946764/",
     color: "bg-yellow-100 text-yellow-700",
   },
@@ -49,7 +48,7 @@ export const teamMembers: TeamMember[] = [
     title: "Statistics and Collaborations Lead",
     description: "DataCraft Lab Collaborations Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/8-events-page/components/teams/assets/mungatu.png",
+      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/mungatu.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/joseph-kyalo-mung-atu-98957570/",
     color: "bg-red-100 text-red-700",
   },
@@ -58,7 +57,7 @@ export const teamMembers: TeamMember[] = [
     title: "Data Science",
     description: "DataCraft Lab Technical Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/8-events-page/components/teams/assets/rohi.jpg",
+      "https://github.com/Data-School-101/website/blob/main/components/teams/assets/rohi.jpg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
