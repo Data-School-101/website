@@ -7,7 +7,7 @@ import Footer from "@/components/home/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The Data School",
+  title: "The DataCraft Labs",
   description: "Find all your statistical events here",
 };
 

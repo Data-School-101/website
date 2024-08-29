@@ -1,6 +1,7 @@
 import React from 'react'
 import { Input } from '../ui/input'
 import { Icon } from '../icons'
+import Link from 'next/link'
 
 
 interface FooterSectionProps {
@@ -60,8 +61,8 @@ const Footer: React.FC = () => {
         {/* About Us Section */}
         <FooterSection title="About Us">
           <ul className="space-y-6">
-            <li><a href="#" className="hover:text-yellow-500">DataCraft Lab Information</a></li>
-            <li><a href="#" className="hover:text-yellow-500">Events</a></li>
+            <li><a href="/about" className="hover:text-yellow-500">DataCraft Lab Information</a></li>
+            <li><a href="/events" className="hover:text-yellow-500">Events</a></li>
             <li><a href="#" className="hover:text-yellow-500">Get Involved</a></li>
             <li><a href="#" className="hover:text-yellow-500">Legal</a></li>
           </ul>
@@ -70,7 +71,9 @@ const Footer: React.FC = () => {
         {/* Connect with Us Section */}
         <FooterSection title="Connect with Us">
           <div className="flex space-x-4 justify-center md:justify-start">
-            <Icon social='instagram' />
+            <Link href="https://youtube.com/@datacraftlab24?si=K9pjHQYVR9WZbyoq" passHref>
+              <Icon social="youtube" />
+            </Link>
             <Icon social='twitter' />
             <Icon social='facebook' />
             <Icon social='linkedin' />
