@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './card'
+import { Card } from '@/components/ui/card'
 import IconComponent from './icon'
 import TextComponent from './text'
 import Section from '../section'
@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
     <Section>
       <div className="flex flex-col items-center justify-center w-full px-4 py-8 gap-24">
         {/* Main Card */}
-        <Card className="w-full max-w-screen-md p-8 shadow-lg">
+        <div className="w-full max-w-screen-md p-8 bg-gray-50">
           <div className="text-center mb-8">
             <TextComponent text="About Us" fontSize="3rem" fontWeight={700} lineHeight="3rem" />
             <TextComponent
@@ -21,7 +21,7 @@ const AboutUs: React.FC = () => {
               lineHeight="2rem"
             />
           </div>
-        </Card>
+        </div>
 
         {/* Our Mission Section */}
         <div className="mt-16 flex flex-col md:flex-row items-center justify-between w-full max-w-screen-lg gap-8">
