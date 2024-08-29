@@ -4,7 +4,7 @@ import Section from '../section'
 export const Explore: React.FC = () => {
   return (
     <Section>
-      <h2 className="text-center text-3xl font-bold mb-8">Explore more</h2>
+      <h2 className="text-center text-3xl font-bold mb-20">Explore more</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
         <div className="flex flex-cols-2 gap-5 items-center relative h-full w-full shadow-sm">
           <Image1 />

@@ -13,13 +13,15 @@ const TeamsPage: React.FC = () => {
           <Link href={member.linkedinUrl} key={member.name} target="_blank" rel="noopener noreferrer">
             <Card className="hover:shadow-xl shadow-sm transition-shadow cursor-pointer">
               <CardHeader className="flex flex-col items-center">
-                <Avatar className="mb-4 w-64 h-64">
+                <Avatar className="mb-4 w-36 h-36">
                   <AvatarImage
                     src={member.imageSrc}
                     alt={member.name}
                     className="rounded-full border-2 border-blue-500"
                   />
-                  <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
+                  <AvatarFallback className='w-36 h-36 bg-gray-200 flex items-center justify-center'>
+                    {member.name.charAt(0)}
+                  </AvatarFallback>
                 </Avatar>
                 <CardTitle className="text-center">{member.name}</CardTitle>
                 <CardDescription className="text-center text-gray-600">{member.title}</CardDescription>
