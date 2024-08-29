@@ -1,12 +1,16 @@
+'use client'
+
 import React from 'react'
 import Section from '../section'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 interface ImageProps {
   image?: string
 }
 
 const DiscoverImage: React.FC<ImageProps> = ({ image }) => {
-  const defaultImage = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwzfHxEYXRhJTJDJTIwQW5hbHlzaXMlMkMlMjBHcmFwaHxlbnwxfHx8fDE3MjM3OTA4MTB8MA&ixlib=rb-4.0.3&q=80&w=1080'
+  const defaultImage =
+    'https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwxNDB8fGdyYXBoc3xlbnwxfHx8fDE3MjQ5NDI5MTB8MA&ixlib=rb-4.0.3&q=80&w=1080'
 
   return (
     <div
@@ -17,12 +21,20 @@ const DiscoverImage: React.FC<ImageProps> = ({ image }) => {
 }
 
 export const Discover: React.FC = () => {
+
+  const [text] = useTypewriter({
+    words: ['Discover Statistical Insights from Experts'],
+    loop: 0, // Infinite loop
+    delaySpeed: 6000,
+  })
+
   return (
     <Section className=''>
       <div className="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between">
         <div className="w-full md:w-[55%] lg:w-[50%] text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">
-            Discover statistical insights from experts
+            {text}
+            <Cursor cursorColor="" />
           </h2>
           <p className="text-gray-700 mb-6">
             Welcome to The <span className='font-bold'> DataCraft Lab</span>, a comprehensive platform for Advanced Analytics.
@@ -41,4 +53,4 @@ export const Discover: React.FC = () => {
     </Section>
   )
 }
- 
+
