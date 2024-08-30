@@ -14,7 +14,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Team Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mugo.png?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/emily-turner",
+    linkedinUrl: "https://www.linkedin.com/in/caroline-mugo-2b10b916/",
     color: "bg-purple-100 text-purple-700",
   },
   {
@@ -36,8 +36,8 @@ export const teamMembers: TeamMember[] = [
     color: "bg-yellow-100 text-yellow-700",
   },
   {
-    name: "Charity Mkajuma",
-    title: "Actuarial, Operations Research and Research Lead",
+    name: "Charity Wamwea",
+    title: "Actuarial Science, Operations Research and Research Lead",
     description: "DataCraft Lab Research Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/charity.png?raw=true",
