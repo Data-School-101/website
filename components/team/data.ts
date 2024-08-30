@@ -23,7 +23,7 @@ export const teamMembers: TeamMember[] = [
     description: "DataCraft Lab Project Coordinator",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/henry.png?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/henry-athiany-a755651b/",
+    linkedinUrl: "https://sites.google.com/view/henryathiany/bio?authuser=0",
     color: "bg-green-100 text-green-700",
   },
   {
