@@ -2,6 +2,8 @@ import React from 'react'
 import { Input } from '../ui/input'
 import { Icon } from '../icons'
 import Link from 'next/link'
+import { Button } from '../ui/button'
+import { EmailIcon } from '../icons/icons'
 
 
 interface FooterSectionProps {
@@ -59,7 +61,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800">
 
         {/* About Us Section */}
-        <FooterSection title="About Us">
+        <FooterSection title="DataCraft Labs">
           <ul className="space-y-6">
             <li><a href="/about" className="hover:text-yellow-500">DataCraft Lab Information</a></li>
             <li><a href="/events" className="hover:text-yellow-500">Events</a></li>
@@ -70,14 +72,29 @@ const Footer: React.FC = () => {
 
         {/* Connect with Us Section */}
         <FooterSection title="Connect with Us">
-          <div className="flex space-x-4 justify-center md:justify-start">
-            <Link href="https://youtube.com/@datacraftlab24?si=K9pjHQYVR9WZbyoq" passHref>
-              <Icon social="youtube" />
-            </Link>
-            <Icon social='twitter' />
-            <Icon social='facebook' />
-            <Icon social='linkedin' />
+          <div className="flex items-center mb-4 mt-4">
+            <EmailIcon />
+            <a href="mailto:data.craftlab24@gmail.com" className="text-gray-700 hover:text-gray-900">
+              data.craftlab24@gmail.com
+            </a>
           </div>
+
+          <div className="flex space-x-4 justify-center md:justify-start">
+            <Button className='p-0' variant="link">
+              <Link href="https://youtube.com/@datacraftlab24?si=K9pjHQYVR9WZbyoq" passHref>
+                <Icon social="youtube" />
+              </Link>
+            </Button>
+            {(["twitter", "facebook", "linkedin"] as const).map((media, key) => {
+              return (
+                <Button className='p-0' variant="link" key={key}>
+                  <Icon social={media} />
+                </Button>
+              )
+            })}
+          </div>
+
+
         </FooterSection>
 
         {/* Subscribe Now Section */}
