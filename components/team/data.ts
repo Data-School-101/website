@@ -85,7 +85,7 @@ export const teamMembers: TeamMember[] = [
     title: "Disease modelling",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mulwa.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/damaris-felistus-mulwa-888242205/",
     color: "bg-red-100 text-red-700",
   },
