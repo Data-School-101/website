@@ -94,7 +94,7 @@ export const teamMembers: TeamMember[] = [
     title: "Statistical Modelling",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu2.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/herbert-imboga-654795152/?originalSubdomain=ke",
     color: "bg-red-100 text-red-700",
   },
@@ -103,7 +103,7 @@ export const teamMembers: TeamMember[] = [
     title: "Climate and Environmental Statistics",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu2.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu3.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-susan-mwelu-phd-lecturer123/?originalSubdomain=ke",
     color: "bg-red-100 text-red-700",
   },
