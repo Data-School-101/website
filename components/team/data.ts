@@ -76,7 +76,7 @@ export const teamMembers: TeamMember[] = [
     title: "Machine Learning",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.jpg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
@@ -103,7 +103,7 @@ export const teamMembers: TeamMember[] = [
     title: "Health Data Analytics",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu.jpg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-susan-mwelu-phd-lecturer123/?originalSubdomain=ke",
     color: "bg-red-100 text-red-700",
   },
@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
     title: "Financial Mathematics",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
