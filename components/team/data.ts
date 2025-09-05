@@ -100,7 +100,7 @@ export const teamMembers: TeamMember[] = [
   },
       {
     name: "Susan Mwelu",
-    title: "Health Data Analytics",
+    title: "Climate and Environmental Statistics",
     description: "Team Member",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu.jpg?raw=true",
