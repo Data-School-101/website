@@ -67,8 +67,8 @@ export const teamMembers: TeamMember[] = [
     title: "Marketing Lead",
     description: "Financial Mathematics",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/odin.jpeg?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/dr-matabel-odin-phd-07684148/",
     color: "bg-red-100 text-red-700",
   },
     {
