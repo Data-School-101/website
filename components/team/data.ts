@@ -76,7 +76,7 @@ export const teamMembers: TeamMember[] = [
     title: "Machine Learning",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
     title: "Financial Mathematics",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
