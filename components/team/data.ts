@@ -10,8 +10,8 @@ interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     name: "Caroline Mugo",
-    title: "Team Lead and GIS Lead",
-    description: "DataCraft Lab Team Lead",
+    title: "Disease Medelling Lead",
+    description: "Team Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mugo.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/caroline-mugo-2b10b916/",
@@ -19,8 +19,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Henry Athiany",
-    title: "Project Coordinator and Biostatistics Lead",
-    description: "DataCraft Lab Project Coordinator",
+    title: "Biostatistics",
+    description: "Research Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/henry.png?raw=true",
     linkedinUrl: "https://sites.google.com/view/henryathiany/bio?authuser=0",
@@ -28,8 +28,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Winnie Mbusiro Chacha",
-    title: "Financial Modelling and Training Lead",
-    description: "DataCraft Lab Training Lead",
+    title: "Financial Modelling",
+    description: "Training Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/winnie.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-winnie-chacha-94946764/",
@@ -37,8 +37,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Charity Wamwea",
-    title: "Actuarial Science, Operations Research and Research Lead",
-    description: "DataCraft Lab Research Lead",
+    title: "Actuarial Science",
+    description: "Research Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/charity.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
@@ -46,8 +46,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Joseph Mungatu",
-    title: "Statistics and Collaborations Lead",
-    description: "DataCraft Lab Collaborations Lead",
+    title: "Statistical Medelling",
+    description: "Collaborations Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mungatu.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/joseph-kyalo-mung-atu-98957570/",
@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Rohi Anon",
     title: "Data Science",
-    description: "DataCraft Lab Technical Lead",
+    description: "Technical Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
@@ -73,14 +73,41 @@ export const teamMembers: TeamMember[] = [
   },
     {
     name: "Damaris Mulwa",
-    title: "Team Member",
-    description: "Statistical Modelling",
+    title: "Disease modelling| machine learning | mental health | Time series analysis",
+    description: "Team Member",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
     {
+    name: "Herbert Imboga",
+    title: "Statistical Modelling",
+    description: "Team Member",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
+      {
+    name: "Susan Mwelu",
+    title: "Health Data Analytics",
+    description: "Field Research Coordinator",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
+      {
+    name: "Dennis Ogot",
+    title: "Team Member",
+    description: "Financial Mathematics",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
+      {
     name: "Dennis Ogot",
     title: "Team Member",
     description: "Financial Mathematics Modeller",
