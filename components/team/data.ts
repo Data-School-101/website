@@ -10,7 +10,7 @@ interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     name: "Caroline Mugo",
-    title: "Disease Medelling Lead",
+    title: "Disease Medelling",
     description: "Team Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mugo.png?raw=true",
