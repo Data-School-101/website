@@ -62,4 +62,31 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
+    {
+    name: "Rohi Anon",
+    title: "Data Science",
+    description: "DataCraft Lab Technical Lead",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
+    {
+    name: "Rohi Anon",
+    title: "Data Science",
+    description: "DataCraft Lab Technical Lead",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
+    {
+    name: "Rohi Anon",
+    title: "Data Science",
+    description: "DataCraft Lab Technical Lead",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
 ]
