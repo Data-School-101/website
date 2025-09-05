@@ -38,7 +38,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Charity Wamwea",
     title: "Actuarial Science",
-    description: "Research Lead",
+    description: "Field Research Coordinator",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/charity.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
@@ -64,16 +64,25 @@ export const teamMembers: TeamMember[] = [
   },
     {
     name: "Matabel Odin",
-    title: "Marketing Lead",
-    description: "Financial Mathematics",
+    title: "Financial Mathematics",
+    description: "Marketing Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/odin.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-matabel-odin-phd-07684148/",
     color: "bg-red-100 text-red-700",
   },
+        {
+    name: "Anthony Waititu",
+    title: "Machine Learning",
+    description: "Team Member",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    color: "bg-red-100 text-red-700",
+  },
     {
     name: "Damaris Mulwa",
-    title: "Disease modelling| machine learning | mental health | Time series analysis",
+    title: "Disease modelling",
     description: "Team Member",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
@@ -92,7 +101,7 @@ export const teamMembers: TeamMember[] = [
       {
     name: "Susan Mwelu",
     title: "Health Data Analytics",
-    description: "Field Research Coordinator",
+    description: "Team Member",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
@@ -100,17 +109,8 @@ export const teamMembers: TeamMember[] = [
   },
       {
     name: "Dennis Ogot",
-    title: "Team Member",
-    description: "Financial Mathematics",
-    imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
-    color: "bg-red-100 text-red-700",
-  },
-      {
-    name: "Dennis Ogot",
-    title: "Team Member",
-    description: "Financial Mathematics Modeller",
+    title: "Financial Mathematics",
+    description: "Team Member",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
