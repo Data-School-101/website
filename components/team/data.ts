@@ -10,7 +10,7 @@ interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     name: "Caroline Mugo",
-    title: "Disease Medelling Lead",
+    title: "Disease Medelling",
     description: "Team Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mugo.png?raw=true",
@@ -94,7 +94,7 @@ export const teamMembers: TeamMember[] = [
     title: "Statistical Modelling",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu2a.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/imboga.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/herbert-imboga-654795152/?originalSubdomain=ke",
     color: "bg-red-100 text-red-700",
   },
@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
     title: "Financial Mathematics",
     description: "Team Member",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/dennis.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
