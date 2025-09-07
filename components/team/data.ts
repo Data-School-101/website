@@ -113,7 +113,7 @@ export const teamMembers: TeamMember[] = [
     description: "Research Fellow",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/dennis.jpeg?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    linkedinUrl: "https://www.researchgate.net/profile/Dennis-Odhiambo",
     color: "bg-red-100 text-red-700",
   },
 
