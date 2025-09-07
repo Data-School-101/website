@@ -119,7 +119,7 @@ export const teamMembers: TeamMember[] = [
 
         {
     name: "Jane Aduda",
-    title: "Digital Health Technologies",
+    title: "Digital Health Technology",
     description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/aduda.jpg?raw=true",
@@ -131,13 +131,13 @@ export const teamMembers: TeamMember[] = [
     title: "Applied Statistics",
     description: "Research Scientist",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/dennis.jpeg?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/makumi.jpg?raw=true",
     linkedinUrl: "https://www.researchgate.net/profile/Nicholas-Makumi",
     color: "bg-red-100 text-red-700",
   },
         {
     name: "George Orwa",
-    title: "Financial Mathematics",
+    title: "Statistics",
     description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/orwa.jpg?raw=true",
