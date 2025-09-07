@@ -37,7 +37,7 @@ export const Discover: React.FC = () => {
             <Cursor cursorColor="" />
           </h2>
           <p className="text-gray-700 mb-6">
-            Welcome to The <span className='font-bold'> DataCraft Lab</span>, a comprehensive platform for Advanced Analytics.
+            Welcome to <span className='font-bold'> DataCraft Lab</span>, a comprehensive platform for Advanced Analytics.
             Dive into a world of statistical insights and expert analyses, providing trainings and opportunities to all.
             Explore a variety of events and
             resources designed to enhance your experience and professional development. Join us in shaping
