@@ -77,7 +77,7 @@ export const teamMembers: TeamMember[] = [
     description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.png?raw=true",
-    linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
+    linkedinUrl: "https://www.researchgate.net/scientific-contributions/Anthony-Gichuhi-Waititu-2184542961",
     color: "bg-red-100 text-red-700",
   },
     {
