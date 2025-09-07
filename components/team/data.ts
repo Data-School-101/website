@@ -11,7 +11,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Caroline Mugo",
     title: "Disease Medelling",
-    description: "Team Lead",
+    description: "Co-Fouder, Team Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mugo.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/caroline-mugo-2b10b916/",
@@ -20,7 +20,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Henry Athiany",
     title: "Biostatistics",
-    description: "Research Lead",
+    description: "Co-Fouder, Research Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/henry.png?raw=true",
     linkedinUrl: "https://sites.google.com/view/henryathiany/bio?authuser=0",
@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Winnie Mbusiro Chacha",
     title: "Financial Modelling",
-    description: "Training Lead",
+    description: "Co-Fouder, Training Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/winnie.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-winnie-chacha-94946764/",
@@ -38,7 +38,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Charity Wamwea",
     title: "Actuarial Science",
-    description: "Field Research Coordinator",
+    description: "Co-Fouder, Field Research Coordinator",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/charity.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/charity-wamwea-5122a471/",
@@ -47,7 +47,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Joseph Mungatu",
     title: "Statistical Medelling",
-    description: "Collaborations Lead",
+    description: "Co-Fouder, Collaborations Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mungatu.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/joseph-kyalo-mung-atu-98957570/",
