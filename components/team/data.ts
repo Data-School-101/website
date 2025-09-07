@@ -116,4 +116,32 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
     color: "bg-red-100 text-red-700",
   },
+
+        {
+    name: "Jane Aduda",
+    title: "Digital Health Technologies",
+    description: "Research Scientist",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/aduda.jpg?raw=true",
+    linkedinUrl: "https://www.linkedin.com/in/jane-aduda-8320729a/?originalSubdomain=ke",
+    color: "bg-red-100 text-red-700",
+  },
+        {
+    name: "Nicholas Makumi",
+    title: "Applied Statistics",
+    description: "Research Scientist",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/dennis.jpeg?raw=true",
+    linkedinUrl: "https://www.researchgate.net/profile/Nicholas-Makumi",
+    color: "bg-red-100 text-red-700",
+  },
+        {
+    name: "George Orwa",
+    title: "Financial Mathematics",
+    description: "Research Scientist",
+    imageSrc:
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/orwa.jpg?raw=true",
+    linkedinUrl: "https://www.researchgate.net/profile/George-Orwa",
+    color: "bg-red-100 text-red-700",
+  },
 ]
