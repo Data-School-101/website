@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Rohi Anon",
     title: "Data Science",
-    description: "Technical Lead",
+    description: "Research Assistant | Technical Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/rohi.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
@@ -74,7 +74,7 @@ export const teamMembers: TeamMember[] = [
         {
     name: "Anthony Waititu",
     title: "Machine Learning",
-    description: "Team Member",
+    description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/waititu.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
@@ -83,7 +83,7 @@ export const teamMembers: TeamMember[] = [
     {
     name: "Damaris Mulwa",
     title: "Disease modelling",
-    description: "Team Member",
+    description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mulwa.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/damaris-felistus-mulwa-888242205/",
@@ -92,7 +92,7 @@ export const teamMembers: TeamMember[] = [
     {
     name: "Herbert Imboga",
     title: "Statistical Modelling",
-    description: "Team Member",
+    description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/imboga.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/herbert-imboga-654795152/?originalSubdomain=ke",
@@ -101,7 +101,7 @@ export const teamMembers: TeamMember[] = [
       {
     name: "Susan Mwelu",
     title: "Climate and Environmental Statistics",
-    description: "Team Member",
+    description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mwelu3.png?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/dr-susan-mwelu-phd-lecturer123/?originalSubdomain=ke",
@@ -110,7 +110,7 @@ export const teamMembers: TeamMember[] = [
       {
     name: "Dennis Ogot",
     title: "Financial Mathematics",
-    description: "Team Member",
+    description: "Research Fellow",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/dennis.jpeg?raw=true",
     linkedinUrl: "https://www.linkedin.com/in/rohi-anon/",
