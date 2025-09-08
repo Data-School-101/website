@@ -46,7 +46,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Joseph Mungatu",
-    title: "Statistical Medelling",
+    title: "Statistical Modelling",
     description: "Co-Founder | Collaborations Lead",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/mungatu.png?raw=true",
