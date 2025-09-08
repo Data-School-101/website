@@ -141,7 +141,7 @@ export const teamMembers: TeamMember[] = [
     description: "Research Scientist",
     imageSrc:
       "https://github.com/Data-School-101/website/blob/main/components/team/assets/orwa.jpg?raw=true",
-    linkedinUrl: "https://www.researchgate.net/profile/George-Orwa",
+    linkedinUrl: "https://scholar.google.com/citations?user=jscP3KUAAAAJ&hl=en&oi=ao",
     color: "bg-red-100 text-red-700",
   },
 ]
