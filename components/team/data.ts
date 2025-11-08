@@ -19,10 +19,10 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Henry Athiany",
-    title: "Biostatistics",
+    title: "Biostatistics | Epidemiology",
     description: "Co-Founder | Research Lead",
     imageSrc:
-      "https://github.com/Data-School-101/website/blob/main/components/team/assets/henry.png?raw=true",
+      "https://github.com/Data-School-101/website/blob/main/components/team/assets/henry2.jpg?raw=true",
     linkedinUrl: "https://sites.google.com/view/henryathiany/bio?authuser=0",
     color: "bg-green-100 text-green-700",
   },
